@@ -1,0 +1,120 @@
+body{
+    background-color: grey;
+}
+
+/* hover dropdown menu */
+
+h1{
+    
+    box-sizing: border-box;
+    text-align: center;
+    font-family: sans-serif;
+    margin: 0;
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+    width: 200px;
+
+}
+ul {
+    margin: 0;
+    text-align: center;
+    list-style-type: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    visibility: hidden;
+    max-height: 0px;
+    transition: all 3000ms ease-in-out;
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+    border-top-width: 0;
+    width: 200px;
+    padding: 0;
+    
+}
+
+.dropDown {
+    visibility: visible;
+    background-color: darksalmon;
+    max-height: 60px;
+    overflow: hidden;
+}
+
+/* image slider */
+
+
+.container{
+    box-sizing: border-box;
+    display: flex;
+    max-width: 600px;
+    max-height: 300px;
+    overflow: hidden;
+}
+.images{
+    box-sizing: border-box;
+    display: flex;
+    max-width: 600px;
+    max-height: 300px;
+    overflow: visible;
+    position: relative;
+    left: 0px;
+    transition: all 700ms ease-in-out;
+}
+.shift {
+left:200px;
+}
+
+.slideArrows{
+    text-align: center;
+    line-height:175px;
+    width:35px;
+    height:200px;
+    position: absolute;
+    font-size: xx-large;
+    z-index: 1;
+    background-color: gray;
+    opacity: 50%;
+}
+#leftSlide{
+    
+    left:8;
+    
+}
+
+#rightSlide{
+    
+    left:575;
+    
+}
+
+
+
+
+#img1{
+    width: 200px;
+    height: auto;
+    
+    
+}
+#img2{
+    width: 200px;
+    height: auto;
+    
+}
+#img3{
+    width: 200px;
+    height: auto;
+    
+}
+#img4{
+    width: 200px;
+    height: auto;
+    
+}
+
+
+
+
+
+
